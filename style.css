@@ -111,9 +111,12 @@ h1 {
   margin-block-end: 1rem;
 }
 
-/* /* .form {
+.form {
   padding: 2rem 2.5rem;
-} */
+}
 
 .form-control {
-} */
+  position: relative;
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
