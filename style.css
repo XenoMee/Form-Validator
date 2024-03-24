@@ -36,8 +36,13 @@ ol[role='list'] {
 
 /* Set core body defaults */
 body {
+  background-color: #f9fafb;
+  font-family: 'Source Sans 3', sans-serif;
   min-height: 100svh;
   line-height: 1.5;
+
+  display: grid;
+  place-content: center;
 }
 
 /* Set shorter line heights on headings and interactive elements */
