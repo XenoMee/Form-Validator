@@ -114,7 +114,7 @@ textarea:not([rows]) {
 
 h1 {
   text-align: center;
-  margin-block-end: 1rem;
+  margin-block-end: 2rem;
 }
 
 .form {
@@ -160,7 +160,7 @@ h1 {
   visibility: hidden;
 }
 
-.form-control:has(.error) small {
+.form-control.error small {
   visibility: visible;
 }
 
